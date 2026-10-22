@@ -1,0 +1,4 @@
+-- Updating blank/NULL palette_tag entris to 'accent'
+UPDATE COLORS
+SET palette_tag = 'Accent'
+Where palette_tag is NULL
